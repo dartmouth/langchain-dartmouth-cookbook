@@ -1,19 +1,18 @@
 #######################################################################################
-# A default configuration that will be loaded for all jupyter books
 # See the documentation for help and more options:
 # https://jupyterbook.org/customize/config.html
 
 #######################################################################################
 # Book settings
-title                       : "langchain_dartmouth Cookbook"  # The title of the book. Will be placed in the left navbar.
-author                      : Simon Stone  # The author of the book
-copyright                   : "2024"  # Copyright year to be placed in the footer
-logo                        : _static/assets/logo-light.png
+title                       : "langchain_dartmouth Cookbook"
+author                      : "Simon Stone for Dartmouth Libraries"
+copyright                   : "2024"
+
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
 execute:
-  execute_notebooks: force
+  execute_notebooks: cache
 
 # Define the name of the latex output file for PDF builds
 latex:
@@ -35,3 +34,13 @@ repository:
 html:
   use_issues_button: true
   use_repository_button: true
+  favicon: _static/img/dartmouth-libraries-spark.png
+
+# Make sure that the logo is the right one for the user-selected color mode
+sphinx:
+  recursive_update: true
+  config:
+    html_theme_options:
+      logo:
+        image_light: _static/img/langchain_dartmouth-cookbook-logo-light.png
+        image_dark: _static/img/langchain_dartmouth-cookbook-logo-dark.png
