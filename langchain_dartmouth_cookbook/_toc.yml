@@ -5,5 +5,6 @@ format: jb-book
 root: 00-intro
 chapters:
 - file: 01-authentication
-- file: notebooks
-- file: markdown-notebooks
+- file: 02-llms
+- file: 03-streaming
+- file: 04-conversational-memory
