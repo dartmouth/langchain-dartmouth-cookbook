@@ -4,7 +4,8 @@
 format: jb-book
 root: 00-intro
 chapters:
-- file: 01-authentication
-- file: 02-llms
-- file: 03-streaming
-- file: 04-conversational-memory
+- file: 01-getting-started
+- file: 02-authentication
+- file: 03-llms
+- file: 04-streaming
+- file: 05-conversational-memory
