@@ -38,7 +38,6 @@ jobs:
       # Build the book
       - name: Build the book
         run: |
-          echo $DARTMOUTH_API_KEY
           jupyter-book build langchain_dartmouth_cookbook
         env:
           DARTMOUTH_API_KEY: ${{ secrets.DARTMOUTH_API_KEY }}
