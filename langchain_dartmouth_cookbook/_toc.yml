@@ -8,4 +8,4 @@ chapters:
 - file: 02-authentication
 - file: 03-llms
 - file: 04-streaming
-- file: 05-conversational-memory
+- file: 05-output-parsing

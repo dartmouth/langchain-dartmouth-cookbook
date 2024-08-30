@@ -4,3 +4,4 @@ matplotlib
 numpy
 ghp-import
 langchain_dartmouth
+pandas
