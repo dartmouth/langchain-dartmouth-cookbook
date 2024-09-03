@@ -9,3 +9,5 @@ chapters:
 - file: 03-llms
 - file: 04-streaming
 - file: 05-output-parsing
+- file: 06-prompt-basics
+- file: 07-prompt-templates

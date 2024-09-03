@@ -8,7 +8,7 @@ This is a collection of examples and tutorials of how to use the `langchain_dart
 If you want to dig deeper into the library, check out the [API reference](https://dartmouth-libraries.github.io/langchain-dartmouth/) or the [source code](https://github.com/Dartmouth-Libraries/langchain-dartmouth)!
 ```
 
-While all examples in this Cookbook are written with novice `LangChain` users in mind, we recommend reading over the [Introduction to LangChain](https://python.langchain.com/v0.2/docs/introduction/) to gain a basic understanding of how `LangChain` works before diving into the examples below!
+Some of these examples (or _recipes_ 🧑‍🍳) are less about `langchain_dartmouth` specifically, and more about building within the larger LangChain ecosystem. While all examples in this Cookbook are written with novice `LangChain` users in mind, we recommend reading over the [Introduction to LangChain](https://python.langchain.com/v0.2/docs/introduction/) to gain a basic understanding of how `LangChain` works before diving into the examples below!
 
 
 ```{tableofcontents}
