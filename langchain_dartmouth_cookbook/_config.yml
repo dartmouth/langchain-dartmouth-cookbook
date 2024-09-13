@@ -44,3 +44,8 @@ sphinx:
       logo:
         image_light: _static/img/langchain_dartmouth-cookbook-logo-light.png
         image_dark: _static/img/langchain_dartmouth-cookbook-logo-dark.png
+
+launch_buttons:
+  notebook_interface: "jupyterlab"  # or "classic"
+  binderhub_url: "https://mybinder.org"
+  colab_url: "https://colab.research.google.com"
