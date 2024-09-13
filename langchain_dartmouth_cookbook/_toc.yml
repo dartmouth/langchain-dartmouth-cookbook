@@ -11,3 +11,5 @@ chapters:
 - file: 05-output-parsing
 - file: 06-prompt-basics
 - file: 07-prompt-templates
+- file: 08-building-chains
+- file: 09-conversational-memory
