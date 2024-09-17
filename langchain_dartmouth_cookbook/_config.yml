@@ -47,5 +47,5 @@ sphinx:
 
 launch_buttons:
   notebook_interface: "jupyterlab"  # or "classic"
-  binderhub_url: "https://mybinder.org"
   colab_url: "https://colab.research.google.com"
+  jupyterhub_url: "https://jhub.dartmouth.edu"
