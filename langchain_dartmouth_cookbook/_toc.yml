@@ -14,3 +14,4 @@ chapters:
 - file: 08-building-chains
 - file: 09-conversational-memory
 - file: 10-embeddings
+- file: 11-advanced-embeddings
