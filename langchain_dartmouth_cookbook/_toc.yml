@@ -15,3 +15,4 @@ chapters:
 - file: 09-conversational-memory
 - file: 10-embeddings
 - file: 11-advanced-embeddings
+- file: 12-rag
