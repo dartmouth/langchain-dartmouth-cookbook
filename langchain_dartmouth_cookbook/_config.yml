@@ -34,7 +34,7 @@ repository:
 html:
   use_issues_button: true
   use_repository_button: true
-  favicon: _static/img/d-pine.png
+  favicon: _static/img/langchain_dartmouth-cookbook-logo-light.png
 
 # Make sure that the logo is the right one for the user-selected color mode
 sphinx:
