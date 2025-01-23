@@ -41,6 +41,7 @@ jobs:
           jupyter-book build langchain_dartmouth_cookbook
         env:
           DARTMOUTH_API_KEY: ${{ secrets.DARTMOUTH_API_KEY }}
+          DARTMOUTH_CHAT_API_KEY: ${{secrets.DARTMOUTH_CHAT_API_KEY}}
 
       # Upload the book's HTML as an artifact
       - name: Upload artifact
