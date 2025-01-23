@@ -2,7 +2,7 @@
 
 [![deploy-book](https://github.com/Dartmouth-Libraries/langchain-dartmouth-cookbook/actions/workflows/deploy.yml/badge.svg)](https://github.com/Dartmouth-Libraries/langchain-dartmouth-cookbook/actions/workflows/deploy.yml)
 
-A collection of examples for the `langchain_dartmouth` library. Explore [the cookbook online](https://dartmouth-libraries.github.io/langchain-dartmouth-cookbook)!
+A collection of examples for the `langchain_dartmouth` library. Explore [the cookbook online](https://dartmouth.github.io/langchain-dartmouth-cookbook)!
 
 
 ## Usage
