@@ -44,6 +44,8 @@ sphinx:
       logo:
         image_light: _static/img/langchain_dartmouth-cookbook-logo-light.png
         image_dark: _static/img/langchain_dartmouth-cookbook-logo-dark.png
+        sphinx:
+    suppress_warnings: ["mystnb.unknown_mime_type"]
 
 launch_buttons:
   notebook_interface: "jupyterlab"  # or "classic"

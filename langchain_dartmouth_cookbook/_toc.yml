@@ -13,3 +13,6 @@ chapters:
 - file: 07-prompt-templates
 - file: 08-building-chains
 - file: 09-conversational-memory
+- file: 10-embeddings
+- file: 11-similarity-search
+- file: 12-rag
