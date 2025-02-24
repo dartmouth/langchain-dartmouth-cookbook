@@ -1,11 +1,65 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+    font-family: DartmouthRuzicka;
+    font-weight: normal;
+    src: url("../fonts/DartmouthRuzicka-Regular.ttf") format("opentype");
+}
+@font-face {
+    font-family: DartmouthRuzicka;
+    font-weight: normal;
+    font-style: italic;
+    src: url("../fonts/DartmouthRuzicka-RegularItalic.ttf") format("opentype");
+}
+@font-face {
+    font-family: DartmouthRuzicka;
+    font-weight: bold;
+    src: url("../fonts/DartmouthRuzicka-Bold.ttf") format("opentype");
+}
+@font-face {
+    font-family: DartmouthRuzicka;
+    font-weight: bold;
+    font-style: italic;
+    src: url("../fonts/DartmouthRuzicka-BoldItalic.ttf") format("opentype");
+}
+@font-face {
+    font-family: National2;
+    font-weight: bold;
+    src: url("../fonts/National2-Bold.otf") format("opentype");
+}
+@font-face {
+    font-family: National2;
+    font-weight: bold;
+    font-style: italic;
+    src: url("../fonts/National2-BoldItalic.otf") format("opentype");
+}
+@font-face {
+    font-family: National2;
+    font-weight: medium;
+    src: url("../fonts/National2-Medium.otf") format("opentype");
+}
+@font-face {
+    font-family: National2;
+    font-weight: medium;
+    font-style: italic;
+    src: url("../fonts/National2-MediumItalic.otf") format("opentype");
+}
+@font-face {
+    font-family: National2;
+    font-weight: normal;
+    src: url("../fonts/National2-Regular.otf") format("opentype");
+}
+@font-face {
+    font-family: National2;
+    font-weight: normal;
+    font-style: italic;
+    src: url("../fonts/National2-RegularItalic.otf") format("opentype");
+}
 
 html {
     --pst-font-family-base-system: "sans-serif";
     --pst-font-family-heading-system: "sans-serif";
 
-    --pst-font-family-base: "Archivo", var(--pst-font-family-base-system);
-    --pst-font-family-heading: "Anton", var(--pst-font-family-heading-system);
+    --pst-font-family-base: "National2", var(--pst-font-family-base-system);
+    --pst-font-family-heading: "DartmouthRuzicka", var(--pst-font-family-heading-system);
 }
 
 html[data-theme="light"] {

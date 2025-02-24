@@ -5,8 +5,8 @@
 #######################################################################################
 # Book settings
 title                       : "langchain_dartmouth Cookbook"
-author                      : "Simon Stone for Dartmouth Libraries"
-copyright                   : "2024"
+author                      : "Simon Stone for Dartmouth College"
+copyright                   : "2024, 2025"
 
 
 # Force re-execution of notebooks on each build.
@@ -25,7 +25,7 @@ bibtex_bibfiles:
 
 # Information about where the book exists on the web
 repository:
-  url: https://github.com/Dartmouth-Libraries/langchain-dartmouth-cookbook  # Online location of your book
+  url: https://github.com/dartmouth/langchain-dartmouth-cookbook  # Online location of your book
   path_to_book: langchain_dartmouth_cookbook  # Optional path to your book, relative to the repository root
   branch: main  # Which branch of the repository should be used when creating links (optional)
 
@@ -34,7 +34,7 @@ repository:
 html:
   use_issues_button: true
   use_repository_button: true
-  favicon: _static/img/dartmouth-libraries-spark.png
+  favicon: _static/img/langchain_dartmouth-cookbook-logo-light.png
 
 # Make sure that the logo is the right one for the user-selected color mode
 sphinx:
