@@ -3,16 +3,22 @@
 
 format: jb-book
 root: 00-intro
-chapters:
-- file: 01-getting-started
-- file: 02-authentication
-- file: 03-llms
-- file: 04-streaming
-- file: 05-output-parsing
-- file: 06-prompt-basics
-- file: 07-prompt-templates
-- file: 08-building-chains
-- file: 09-conversational-memory
-- file: 10-embeddings
-- file: 11-similarity-search
-- file: 12-rag
+parts:
+  - caption: Fundamentals
+    chapters:
+    - file: 01-getting-started
+    - file: 02-authentication
+    - file: 03-llms
+    - file: 04-streaming
+  - caption: Advanced Concepts
+    chapters:
+    - file: 05-output-parsing
+    - file: 06-prompt-basics
+    - file: 07-prompt-templates
+    - file: 08-building-chains
+    - file: 09-conversational-memory
+  - caption: Retrieval-Augmented Generation (RAG)
+    chapters:
+    - file: 10-embeddings
+    - file: 11-similarity-search
+    - file: 12-rag
