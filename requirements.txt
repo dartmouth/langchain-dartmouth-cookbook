@@ -3,7 +3,7 @@ ipywidgets
 matplotlib
 numpy
 ghp-import
-langchain_dartmouth
 pandas
 umap-learn
 plotly
+langchain_dartmouth
