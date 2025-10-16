@@ -5,5 +5,5 @@ numpy
 ghp-import
 pandas
 umap-learn
-plotly
+plotly==6.0.0
 langchain_dartmouth
