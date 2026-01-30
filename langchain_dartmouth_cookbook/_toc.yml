@@ -22,3 +22,6 @@ parts:
     - file: 10-embeddings
     - file: 11-similarity-search
     - file: 12-rag
+  - caption: Agentic Applications
+    chapters:
+    - file: 13-tool-calling
