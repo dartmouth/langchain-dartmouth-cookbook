@@ -26,3 +26,4 @@ parts:
     chapters:
     - file: 13-tool-calling
     - file: 14-agents
+    - file: 15-structured-output
