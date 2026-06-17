@@ -1,0 +1,44 @@
+version: 1
+project:
+  title: langchain_dartmouth Cookbook
+  authors:
+    - name: Simon Stone & Biratal Wagle for Dartmouth College
+  copyright: 2024, 2025
+  github: dartmouth/langchain-dartmouth-cookbook
+  bibliography:
+    - references.bib
+  exports:
+    - format: pdf
+      template: plain_latex_book
+      output: exports/book.pdf
+  toc:
+    - file: 00-intro.md
+    - title: Fundamentals
+      children:
+        - file: 01-getting-started.md
+        - file: 02-authentication.ipynb
+        - file: 03-llms.ipynb
+        - file: 04-streaming.ipynb
+    - title: Advanced Concepts
+      children:
+        - file: 05-output-parsing.ipynb
+        - file: 06-prompt-basics.ipynb
+        - file: 07-prompt-templates.ipynb
+        - file: 08-building-chains.ipynb
+        - file: 09-conversational-memory.ipynb
+    - title: Retrieval-Augmented Generation (RAG)
+      children:
+        - file: 10-embeddings.ipynb
+        - file: 11-similarity-search.ipynb
+        - file: 12-rag.ipynb
+    - title: Agentic Applications
+      children:
+        - file: 13-tool-calling.ipynb
+        - file: 14-agents.ipynb
+site:
+  options:
+    favicon: _static/img/langchain_dartmouth-cookbook-logo-light.png
+    logo: _static/img/langchain_dartmouth-cookbook-logo-light.png
+    logo_dark: _static/img/langchain_dartmouth-cookbook-logo-dark.png
+    folders: true
+  template: book-theme
