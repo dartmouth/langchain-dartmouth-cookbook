@@ -65,6 +65,28 @@ These conventions are consistent across all complete notebooks. New notebooks sh
 
 **Incomplete notebook**: `15-structured-output.ipynb` is a code-only skeleton with no prose, no title, and no Summary. It needs intro text, inline comments, callouts, and a Summary before it can be added to `_toc.yml`.
 
+## Skills
+
+Four skills live in `skills/`. Load the relevant one before starting work it applies to.
+
+| Skill | Path | Load when... |
+|---|---|---|
+| `grill-with-docs` | `skills/grill-with-docs/SKILL.md` | **Required for every new or revised recipe.** Run before writing to stress-test the plan against the existing domain model and sharpen terminology. |
+| `stop-slop` | `skills/stop-slop/SKILL.md` | Writing or editing any notebook prose — intro paragraphs, callout boxes, Summary sections, inline commentary. Catches AI writing patterns before they land. |
+| `blooms-taxonomy` | `skills/blooms-taxonomy/SKILL.md` | Writing or refining learning objectives for a notebook or workshop; checking that objectives are measurable and cognitively scaffolded. |
+| `backward-design-methodology` | `skills/backward-design-methodology/SKILL.md` | Planning a new notebook or workshop series; start here to define outcomes before deciding on content or activities. |
+| `universal-design-for-learning` | `skills/universal-design-for-learning/SKILL.md` | Designing accessible notebooks or workshop materials; ensures multiple means of representation and engagement from the start. |
+
+## LangChain / LangGraph API reference
+
+LangChain and LangGraph APIs change frequently. **Before writing or editing any code example, fetch the current docs:**
+
+```
+https://docs.langchain.com/llms.txt
+```
+
+Query this for the specific class or function you are using. Do not rely on training-data knowledge of LangChain APIs — assume it is stale.
+
 ## Dependencies
 
 - `jupyter-book<2.0` — pinned below 2.0; the book is not compatible with v2 syntax.
