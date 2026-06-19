@@ -39,6 +39,8 @@ html:
 # Make sure that the logo is the right one for the user-selected color mode
 sphinx:
   recursive_update: true
+  extra_extensions:
+    - sphinxcontrib.mermaid
   config:
     html_theme_options:
       logo:

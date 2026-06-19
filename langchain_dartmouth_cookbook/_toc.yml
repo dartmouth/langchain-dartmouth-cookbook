@@ -27,3 +27,5 @@ parts:
     - file: 13-tool-calling
     - file: 14-agents
     - file: 15-structured-output
+    - file: 16-langgraph-orchestration
+    - file: 17-multi-agent
