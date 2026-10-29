@@ -6,6 +6,7 @@ ghp-import
 pandas
 umap-learn
 plotly==6.0.0
-langchain_dartmouth
+# TEMPORARY: pin to dev branch for unreleased DartmouthDecisions; revert to bare `langchain_dartmouth` on release (issue #31)
+langchain_dartmouth @ git+https://github.com/dartmouth/langchain-dartmouth.git@dev
 langgraph>=1.0,<2.0
 sphinxcontrib-mermaid
