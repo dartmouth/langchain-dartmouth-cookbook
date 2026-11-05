@@ -29,3 +29,6 @@ parts:
     - file: 15-structured-output
     - file: 16-langgraph-orchestration
     - file: 17-multi-agent
+  - caption: Decision Models
+    chapters:
+    - file: 18-decision-models
