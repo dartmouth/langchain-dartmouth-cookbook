@@ -9,3 +9,4 @@ plotly==6.0.0
 langchain_dartmouth>=0.3.3
 langgraph>=1.0,<2.0
 sphinxcontrib-mermaid
+sqlalchemy[asyncio]
